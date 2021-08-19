@@ -37,6 +37,10 @@ export default createGlobalStyle`
       height: 100%;
   }
 
+  body{
+    background-color: var(--tertiary)
+  }
+
   *, button, input {
       border: 0;
       outline: none;

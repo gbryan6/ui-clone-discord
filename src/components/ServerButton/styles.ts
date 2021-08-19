@@ -65,6 +65,7 @@ export const Button = styled.button<ButtonProps>`
 
         content: '${props => props.mentions && props.mentions}';
         display: ${props => props.mentions && props.mentions > 0 ? 'inline': 'none'};
+
     }
 
     &.active, &:hover{
