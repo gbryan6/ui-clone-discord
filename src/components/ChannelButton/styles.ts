@@ -9,7 +9,9 @@ export const Container = styled.div`
 
   cursor: pointer;
 
-  padding: 5px 3px;
+  padding: 6px 8px;
+
+  margin-bottom: 2px;
   
   border-radius: 5px;
 

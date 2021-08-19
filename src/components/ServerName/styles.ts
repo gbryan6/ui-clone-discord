@@ -12,7 +12,7 @@ export const Container = styled.div`
 
   background-color: var(--secondary);
 
-  box-shadow: rgba(0,0,0, 0.02) 0px 1px 0px 0px;
+  box-shadow: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
 
   border-radius: 7px 0 0 0;
   z-index: 2;
@@ -25,8 +25,8 @@ export const Title = styled.h1`
     color: var(--white);
 `
 export const ExpandIcon = styled(ExpandMore)`
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
 
     color: var(--white);
     cursor: pointer;

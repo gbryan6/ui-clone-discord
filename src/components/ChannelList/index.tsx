@@ -10,7 +10,7 @@ const ChannelList: React.FC = () => {
             <AddCategoryIcon />
         </Category>
 
-        <ChannelButton  channelName="chat-livre" />
+        <ChannelButton  channelName="chat-livre" selected={true} />
         <ChannelButton  channelName="html" />
         <ChannelButton  channelName="css" />
         <ChannelButton  channelName="reactjs" />
