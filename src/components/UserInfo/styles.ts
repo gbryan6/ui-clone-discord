@@ -46,7 +46,8 @@ export const UserData = styled.div`
   }
 
   > span{
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 600;
     color: var(--gray);
   }
 
