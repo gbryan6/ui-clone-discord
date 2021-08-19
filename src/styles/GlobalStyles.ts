@@ -29,7 +29,7 @@ export default createGlobalStyle`
  
     --link: #5d80d6;
  
-    --rocketseat: #6633cc;
+    --bryan: #d7d7d7;
   }
 
 
@@ -38,6 +38,8 @@ export default createGlobalStyle`
   }
 
   *, button, input {
+      border: 0;
+      outline: none;
       font-family: 'Roboto', sans-serif;
   }
 
