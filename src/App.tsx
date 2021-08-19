@@ -1,11 +1,13 @@
 import React from 'react';
+
+import Layout from './components/Layout';
 import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
     <>
-    <h1>Olá ui discord</h1>
-    <GlobalStyles/>
+      <Layout />
+      <GlobalStyles />
     </>
   );
 }
